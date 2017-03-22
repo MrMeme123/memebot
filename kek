@@ -1,0 +1,15 @@
+{"name": "MemeBot", "channel_id": "289098737895079936", "token": "M-IaQp5iPefZ3TIK6ZqBE-q5bzuEnisVOIRVHKizruNPWRYLtoqV41rqnPbJmpCcjfBf", "avatar": "0c1a239be3cc60f6dde72811bc7a517b", "guild_id": "289098737895079936", "id": "294113182040064001"}
+
+
+/*
+  Send a message using a webhook
+*/
+
+// import the discord.js module
+const Discord = require('discord.js');
+
+// create a new webhook
+const hook = new Discord.WebhookClient('294113182040064001', 'M-IaQp5iPefZ3TIK6ZqBE-q5bzuEnisVOIRVHKizruNPWRYLtoqV41rqnPbJmpCcjfBf');
+
+// send a message using the webhook
+hook.sendMessage('nice meme');
